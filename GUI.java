@@ -25,7 +25,7 @@ public class GUI {
             @Override
             public void actionPerformed(ActionEvent e) {
                 numOfBW++;
-                bwButton.setText("Bathwater: x" + numOfBW);
+                bwButton.setText("Robux: x" + numOfBW);
             }
         });
 
