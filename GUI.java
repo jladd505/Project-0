@@ -60,7 +60,7 @@ public class GUI {
 
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("Market");
+        frame.setTitle("The Market");
         frame.pack();
         frame.setSize(400,300);
         frame.setVisible(true);
@@ -79,7 +79,7 @@ public class GUI {
                 panel.removeAll();
                 panel.updateUI();
 
-                JLabel bwLabel = new JLabel(numOfBW + "x Bathwater");
+                JLabel bwLabel = new JLabel(numOfBW + "x Robux");
                 JLabel apLabel = new JLabel(numOfAP + "x Airpods");
                 JLabel mcLabel = new JLabel(numOfMC + "x Minecraft: Java Edition");
                 JLabel empty = new JLabel("Cart is Empty");
