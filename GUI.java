@@ -74,7 +74,7 @@ public class GUI {
                     discount = 5;
                 String youSaved = " ";
                 if (discount > 0)
-                    youSaved += "(You saved $" + discount + ")";
+                    youSaved += "(You put $" + discount + ")";
 
                 panel.removeAll();
                 panel.updateUI();
