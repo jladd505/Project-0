@@ -8,7 +8,7 @@ public class GUI {
     private int numOfMC = 0;
     private int discount = 0;
 
-    private JButton bwButton = new JButton("Robux: 0");
+    private JButton bwButton = new JButton("fortnite: 0");
     private JButton apButton = new JButton("Airpods: 0");
     private JButton mcButton = new JButton("Minecraft: Java Edition: 0");
     private JButton checkOut = new JButton("Checkout");
